@@ -27,7 +27,7 @@ fun EditSiswaScreen(
         topBar = {
             SiswaTopAppBar(
                 title = stringResource(DestinasiEditSiswa.titleRes),
-                canNavigateBack = true
+                canNavigateBack = true,
                 navigateUp = onNavigateUp
             )
         },
